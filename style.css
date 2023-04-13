@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainContainer{
+    background-color: skyblue;
+}
+input{
+    border: none;
+    /* border-bottom: 1px solid black; */
+    /* border-right: 1px solid black    ; */
+    /* background-color: rgb(236, 89, 89); */
+    /* width: 150px; */
+}
+.header{
+    background-color: #0066b2;
+    text-align: center;
+    padding:10px;
+    /* margin-bottom: 10px; */
+    position: fixed;
+    top: 0  ;
+    width: 100%;
+    z-index: 1;
+}
+.MainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    /* background-color: skyblue; */
+    border: 2px solid black;
+    width: 50%;
+    padding: 20px;
+    border-radius: 10%;
+    background-color: #B9D9EB;
+}
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+    /* background-color: skyblue; */
+    /* border: 2px solid black; */
+    width: 50%;
+    padding: 20px;
+    /* border-radius: 10%; */
+    /* background-color: rgb(240, 199, 199); */
+}
+#tableid{
+    margin-top: 20px;
+}
+h3{
+    font-size: 30px;
+    color: azure;
+    font-weight: 500;
+}
+label{
+    font-weight: bold;
+    /* display: block; */
+}
+.labels{
+    margin-bottom: 20px;
+}
+#hobby1{
+    margin-left: 30px;
+}
+#hobby2{
+    margin-left: 100px;
+}
+#hobby3{
+    margin-left: 100px;
+}
+#hobby4{
+    margin-left: 100px;
+}
+#submit{
+    width: 70px;
+    height: 30px;
+    margin-left: 113px;
+    margin-right: 40px;
+    /* border: 1px solid black; */
+    background-color: #002D62;
+    border-radius: 10px;
+    color: white;
+}
+#reset{
+    width: 70px;
+    height: 30px;
+    /* border: 1px solid black; */
+    background-color: #0039a6;
+    border-radius: 10px;
+    color: white;
+
+}
+
+#name{
+    position: relative;
+    left: 54px;
+    width: 210px;
+    border-radius: 5px;
+    height: 25px;
+}
+
+#phone  {
+    position: relative;
+    left: 28px;
+    width: 210px;
+    border-radius: 5px;
+    height: 25px;
+}
+#Address{
+    position: relative;
+    left: 37px;
+
+}
+#male{
+    /* position: relative; */
+    /* left: 20px; */
+    margin-left: 38px;
+}
+
+#city{
+    position: relative;
+    left: 60px;
+}
+#dob{
+    width: 210px;
+    border-radius: 5px;
+    height: 25px;
+}
